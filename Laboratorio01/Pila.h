@@ -1,6 +1,9 @@
 #ifndef PILA_H
 #define PILA_H
 #include "Nodo.h"
+#include <string>
+#include "stddef.h"
+using namespace std;
 
 class Pila
 {
@@ -12,9 +15,9 @@ public:
     void setLongitud(int l); //Modificadora
     void setTope(Nodo*); //Modificadora
     bool pushElem(int);
-    bool popElem();
-    int pasarPilaACola();
+    int popElem();
     bool esVacia();
+    string recorrerPila();
 
 protected:
     int longitud;

@@ -1,6 +1,9 @@
 #ifndef COLA_H
 #define COLA_H
 #include "Nodo.h"
+#include <string>
+#include "stddef.h"
+using namespace std;
 
 class Cola
 {
@@ -17,7 +20,7 @@ public:
     bool eliminarElem();
     int pasarColaAPila();
     bool esVacia();
-
+    string recorrerCola();
 
 protected:
     Nodo* frente;

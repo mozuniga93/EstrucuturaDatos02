@@ -202,5 +202,8 @@ bool Lista::verificarSemejanzaListas(Lista pLista1, Lista pLista2) {
 }
 
 
-
+int Lista::pasarElementoLista() {
+    //FALTA
+    return -1;
+}
 
