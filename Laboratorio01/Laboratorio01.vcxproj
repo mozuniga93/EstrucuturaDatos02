@@ -147,19 +147,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractOptionHandler.cpp" />
     <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="ColaToListaOptionHandler.cpp" />
+    <ClCompile Include="ColaToPilaOptionHandler.cpp" />
+    <ClCompile Include="DefaultFactory.cpp" />
+    <ClCompile Include="ExitOptionHandler.cpp" />
     <ClCompile Include="Gestor.cpp" />
+    <ClCompile Include="ImprimeColaOptionHandler.cpp" />
+    <ClCompile Include="ImprimeListaOptionHandler.cpp" />
+    <ClCompile Include="ImprimePilaOptionHandler.cpp" />
+    <ClCompile Include="InsertaColaOptionHandler.cpp" />
+    <ClCompile Include="InsertaListaOptionHandler.cpp" />
+    <ClCompile Include="InsertaPilaOptionHandler.cpp" />
     <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="ListaToColaOptionHandler.cpp" />
+    <ClCompile Include="ListaToPilaOptionHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Pila.cpp" />
+    <ClCompile Include="PilaToColaOptionHandler.cpp" />
+    <ClCompile Include="PilaToListaOptionHandler.cpp" />
+    <ClCompile Include="UnknownOptionHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractOptionHandler.h" />
     <ClInclude Include="Cola.h" />
+    <ClInclude Include="ColaToListaOptionHandler.h" />
+    <ClInclude Include="ColaToPilaOptionHandler.h" />
+    <ClInclude Include="DefaultFactory.h" />
+    <ClInclude Include="ExitOptionHandler.h" />
     <ClInclude Include="Gestor.h" />
+    <ClInclude Include="ImprimeColaOptionHandler.h" />
+    <ClInclude Include="ImprimeListaOptionHandler.h" />
+    <ClInclude Include="ImprimePilaOptionHandler.h" />
+    <ClInclude Include="InsertaColaOptionHandler.h" />
+    <ClInclude Include="InsertaListaOptionHandler.h" />
+    <ClInclude Include="InsertaPilaOptionHandler.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaToColaOptionHandler.h" />
+    <ClInclude Include="ListaToPilaOptionHandler.h" />
+    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Pila.h" />
+    <ClInclude Include="PilaToColaOptionHandler.h" />
+    <ClInclude Include="PilaToListaOptionHandler.h" />
+    <ClInclude Include="UnknownOptionHandler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

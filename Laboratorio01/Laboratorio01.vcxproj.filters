@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{1f440d3e-689e-4905-a5b0-bdf6ac3d08c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,57 @@
     <ClCompile Include="Gestor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AbstractOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertaListaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertaPilaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertaColaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaToColaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaToListaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaToPilaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaToColaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImprimePilaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImprimeListaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImprimeColaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaToPilaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaToListaOptionHandler.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lista.h">
@@ -49,6 +103,57 @@
     </ClInclude>
     <ClInclude Include="Gestor.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertaListaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertaPilaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertaColaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaToListaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaToPilaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImprimeColaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImprimeListaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImprimePilaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaToColaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaToPilaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaToColaOptionHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaToListaOptionHandler.h">
+      <Filter>Menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
