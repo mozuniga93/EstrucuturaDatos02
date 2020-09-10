@@ -17,8 +17,8 @@ public:
     string insertarEnLista(const int);
     string insertarEnPila(const int);
     string insertarEnCola(const int);
-    string pasarListaAPila();
-    string pasarListaACola();
+    string pasarListaAPila(const int);
+    string pasarListaACola(const int);
     string pasarPilaACola();
     string pasarPilaALista();
     string pasarColaAPila();
@@ -26,6 +26,7 @@ public:
     string imprimirLista();
     string imprimirPila();
     string imprimirCola();
+    bool verificarListaVacia();
 };
 
 #endif

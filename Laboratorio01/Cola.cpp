@@ -91,7 +91,7 @@ string Cola::recorrerCola() {
 		Nodo* aux = getFrente();
 		int contador = 1;
 		do {
-			rslt += "Dato(" + to_string(contador) + ")=" + to_string(aux->getInfo()) + "\n";
+			rslt += "Posicion(" + to_string(contador) + ")=" + to_string(aux->getInfo()) + "\n";
 			aux = aux->getSig();
 			contador++;
 		} while (aux != NULL);

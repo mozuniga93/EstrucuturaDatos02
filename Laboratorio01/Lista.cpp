@@ -36,7 +36,7 @@ std::string Lista::recorrerListaEnlazada() {
         Nodo* aux = getCabeza();
         int contador = 1;
         do {
-            rslt += "Dato(" + to_string(contador) + ")=" + to_string(aux->getInfo()) + "\n";
+            rslt += "Posicion(" + to_string(contador) + ")=" + to_string(aux->getInfo()) + "\n";
             aux = aux->getSig();
             contador++;
         } while (aux != NULL);
@@ -202,8 +202,30 @@ bool Lista::verificarSemejanzaListas(Lista pLista1, Lista pLista2) {
 }
 
 
-int Lista::pasarElementoLista() {
-    //FALTA
-    return -1;
+int Lista::pasarElementoLista(int pPosicion) {
+    Nodo* aux, * ant;
+    int i, rslt = -1;
+    if (getCabeza() == NULL) {
+        rslt = -1;
+    }
+    else if (getLargo() >= pPosicion)
+    {
+        for (i = 1, ant = 0, aux = getCabeza(); aux->getSig() != NULL, i < pPosicion; i++) {
+            ant = aux;
+            aux = aux->getSig();
+        }
+
+        if (ant != 0) {
+            ant->setSig(aux->getSig());
+        }
+        else {
+            setCabeza(aux->getSig());
+        }
+
+        rslt = aux->getInfo();
+        delete aux;
+        setLargo(getLargo() - 1);
+    }
+    return rslt;
 }
 

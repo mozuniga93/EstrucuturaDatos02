@@ -29,7 +29,7 @@ bool ColaToListaOptionHandler::Handle(int p_selected_option)
 
 void ColaToListaOptionHandler::Pasar()
 {
-    cout << m_gestor->pasarColaAPila() << endl;
+    cout << m_gestor->pasarColaALista() << endl;
 }
 
 ColaToListaOptionHandler::~ColaToListaOptionHandler()

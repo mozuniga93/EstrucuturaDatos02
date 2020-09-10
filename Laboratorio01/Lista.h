@@ -25,7 +25,7 @@ public:
     bool verificarSemejanzaListas(Lista, Lista);
     string imprimirInversa();
     string imprimirRecursividad(Nodo*);
-    int pasarElementoLista();
+    int pasarElementoLista(int);
 
 protected:
     Nodo* cabeza;

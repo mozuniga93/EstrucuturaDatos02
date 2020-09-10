@@ -29,7 +29,32 @@ bool ListaToPilaOptionHandler::Handle(int p_selected_option)
 
 void ListaToPilaOptionHandler::Pasar()
 {
-    cout << m_gestor->pasarPilaACola() << endl;
+    bool listaVacia = m_gestor->verificarListaVacia();
+    if (listaVacia) {
+        cout << "La lista se encuentra vacia." << endl;
+    }
+    else {
+        cout << m_gestor->imprimirLista() << endl;
+        int input = -1;
+        bool valid = false;
+        do
+        {
+            cout << "Favor digite la posicion del elemento de la lista a pasar a pila: " << flush;
+            cin >> input;
+            if (cin.good())
+            {
+                valid = true;
+            }
+            else
+            {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << "Error. Favor inserte un numero entero." << endl;
+            }
+        } while (!valid);
+
+        cout << m_gestor->pasarListaAPila(input) << endl;
+    }
 }
 
 ListaToPilaOptionHandler::~ListaToPilaOptionHandler()
