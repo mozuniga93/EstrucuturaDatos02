@@ -42,7 +42,7 @@ string Gestor::pasarListaAPila(const int pPosicion) {
 	num = lista.pasarElementoLista(pPosicion);
 	if (num != -1) {
 		pila.pushElem(num);
-		resp += "El elemento de la lista " + to_string(num) + " en la posicion " + to_string(pPosicion) + ", se paso de la lista a la pila. " + "\n";
+		resp += "El elemento correspondiente a " + to_string(num) + " de la lista en la posicion " + to_string(pPosicion) + ", se paso de la lista a la pila. " + "\n";
 	}
 	else {
 		resp = "Posicion no existe en la lista. Intente de nuevo.";
@@ -56,7 +56,7 @@ string Gestor::pasarListaACola(const int pPosicion) {
 	num = lista.pasarElementoLista(pPosicion);
 	if (num != -1) {
 		cola.insertarElem(num);
-		resp += "El elemento de la lista " + to_string(num) + " en la posicion " + to_string(pPosicion) + ", se paso de la lista a la Cola. " + "\n";
+		resp += "El elemento correspondiente a " + to_string(num) + " de la lista en la posicion " + to_string(pPosicion) + ", se paso de la lista a la Cola. " + "\n";
 	}
 	else {
 		resp = "Posicion no existe en la lista. Intente de nuevo..";
