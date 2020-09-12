@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laboratorio01", "Laboratorio01\Laboratorio01.vcxproj", "{CB472BE7-BA4D-4AFA-A93E-00A3736DF7E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{90F8B2F2-717E-4759-BA7A-F0DDC9E90B14}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ClassDiagram-Estructuras.dia = Documentation\ClassDiagram-Estructuras.dia
+		Documentation\ClassDiagram-Estructuras.png = Documentation\ClassDiagram-Estructuras.png
+		Documentation\ClassDiagram-Menu.dia = Documentation\ClassDiagram-Menu.dia
+		Documentation\ClassDiagram-Menu.png = Documentation\ClassDiagram-Menu.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractOptionHandler">
+    <Position X="11" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAgAAAAAAAAACAAAwAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColaToListaOptionHandler">
+    <Position X="6" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAEAAAAAAAAAAAAAAAAAAIAABAAAAAAAAA=</HashCode>
+      <FileName>ColaToListaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExitOptionHandler">
+    <Position X="16" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAA=</HashCode>
+      <FileName>ExitOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColaToPilaOptionHandler">
+    <Position X="3.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAEAAAAAEAAAAAAAAAAAAIAAAAAAAACAAA=</HashCode>
+      <FileName>ColaToPilaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImprimeColaOptionHandler">
+    <Position X="13.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwIAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ImprimeColaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImprimeListaOptionHandler">
+    <Position X="8.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAgAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ImprimeListaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImprimePilaOptionHandler">
+    <Position X="11" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAEAAAAAAAAAAAAAABAIAAAAAAAAAAQA=</HashCode>
+      <FileName>ImprimePilaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsertaColaOptionHandler">
+    <Position X="8.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAAE=</HashCode>
+      <FileName>InsertaColaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsertaListaOptionHandler">
+    <Position X="3.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAgAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAEA=</HashCode>
+      <FileName>InsertaListaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsertaPilaOptionHandler">
+    <Position X="6" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAgAAAAAAAIAAAAAAAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>InsertaPilaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaToColaOptionHandler">
+    <Position X="13.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAgAAEAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ListaToColaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaToPilaOptionHandler">
+    <Position X="11" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAEAAAAAAAAAAAgAAAAAAIAAACAAAAAAAA=</HashCode>
+      <FileName>ListaToPilaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="16" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAUAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PilaToColaOptionHandler">
+    <Position X="16" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAEAIAAAAAAAAAAAAAAQAIAAAAAAAAAAAA=</HashCode>
+      <FileName>PilaToColaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PilaToListaOptionHandler">
+    <Position X="18.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAEAAAAAAAAAAgAAAAAAAIAAAIAAAAAAAA=</HashCode>
+      <FileName>PilaToListaOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnknownOptionHandler">
+    <Position X="18.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAACAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UnknownOptionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestor">
+    <Position X="0.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQiAIAAAhAAAAAAAAACYMAAAAoCAAAAAAAEAA=</HashCode>
+      <FileName>Gestor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultFactory">
+    <Position X="21" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAgAAAAAAQAAAAAEAAAAAAEAAAAAAAAQAAAIg=</HashCode>
+      <FileName>DefaultFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
